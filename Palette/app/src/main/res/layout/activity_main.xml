@@ -3,97 +3,74 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/bg" />
-
-        <TextView
-            android:id="@+id/view"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:background="#EBDBCE"
-            android:text="255-255-255"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:gravity="center"
-            android:layout_alignParentRight="true"/>
-
-        <TextView
-            android:id="@+id/view2"
-            android:layout_width="96dp"
-            android:layout_height="wrap_content"
-            android:text="//RGB"
-            android:layout_below="@+id/view"
-            android:layout_marginRight="16dp"
-            android:layout_alignParentRight="true"/>
-
-
-
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
+        android:layout_height="0dp"
         android:layout_weight="2"
+        android:orientation="vertical"
         >
 
-        <Button
-            android:id="@+id/button"
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/bg"
+            />
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#EBE1DD"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="0dp"
             android:layout_weight="1"
-            android:background="#EBDBCE"
-            android:layout_margin="8px"/>
+            android:layout_height="match_parent"
+            android:background="#EBE1DD"
+            android:layout_margin="5dp"
+            />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="#E8CAC2"
-            android:layout_margin="8px"/>
+            android:background="#ECCBCA"
+            />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="#657597"
-            android:layout_margin="8px"/>
-
+            android:background="#75839C"
+            />
         <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="#ACAFBE"
-            android:layout_margin="8px"/>
-
+            android:background="#99A9BF" />
         <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="#BAC4CD"
-            android:layout_margin="8px"/>
-
+            android:background="#C3CCD5" />
         <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:background="#CDCED2"
-            android:layout_margin="8px"/>
-
+            android:background="#DDE2E5" />
     </LinearLayout>
 </LinearLayout>
